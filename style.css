@@ -1,0 +1,140 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    padding-left: 17px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+.biography > h2{
+    font-size: 14px;
+}
+.biography > h1{
+    font-size: 45px;
+}
+.biography  p{
+    font-size: 14px;
+    color: #595959;
+}
+.biography > div{
+    width: 400px;
+    line-height: 24px;
+    height: 120px;
+}
+.myProjects > h3{
+    font-size: 22px;
+}
+.myProjects > ol{
+    font-weight: bold;
+}
+.myProjects li > a {
+    font-size: 14px;
+    color: #595959;
+}
+.myProjects li > span {
+    font-size: 14px;
+    color: #000;
+}
+.experience > h3{
+    font-size: 22px;
+}
+.experience > h4{
+    font-size: 16px;
+}
+.experience  p{
+    font-size: 12px;
+    color: #A8A8A8;
+}
+.experience li{
+    font-size: 14px;
+    color: #595959;
+}
+.work strong{
+    color: #FB6D3A;
+}
+.education > h2{
+    font-size: 22px;
+}
+.education > h4{
+    font-size: 16px;
+    color: #FB6D3A;
+}
+.education > h5{
+    font-size: 14px;
+    
+}
+.education > p{
+    font-size: 12px;
+    color: #A8A8A8;
+}
+
+
+/* About me */
+img{
+    margin-top: 40px;
+}
+.about_me {
+    margin-right: 88px;
+    background-color: #1E2939;
+    width: 370px;
+}
+.my_information{
+    padding-left: 40px;
+}
+.about_me h3{
+    font-size: 22px;
+    color:#fff;
+}
+.about_me li{
+    font-size: 14px;
+    line-height: 24px;
+    color:#FB6D3A;
+}
+.about_me p{
+    color:#fff;
+}
+.contacts span{
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+    margin-right: 7px;
+}
+a[href="tel:+7 777 777 77 77"]{
+    text-decoration: none;
+}
+.contacts a {
+    color:#fff;
+    opacity: 0.5;
+}
+.tech_skills {
+}
+.soft_skills > h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color:#fff;
+}
+.soft_skills  li{
+    color:#FB6D3A;
+}
+.soft_skills p{
+    color:#fff;
+}
+
+/* Main container */
+.main_container{
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
